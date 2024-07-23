@@ -1,0 +1,21 @@
+ros node list
+ros run tutlesim turtle_teleop_key
+ros run tutlesim turtle_teleop_key --ros--args --remap turtle.cmd_vel :=timmy/cmd_
+
+
+ros2 run turtlesim turtlesim_node --ros-args --remap __node:=my_turtle
+
+
+ros node info /<name>
+
+rqt
+open spawn plugin
+change name  # multiple turtles with same names cannot exist
+
+set coordinates
+spawn
+
+
+
+
+

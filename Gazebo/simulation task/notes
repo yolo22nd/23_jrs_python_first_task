@@ -1,0 +1,1810 @@
+    Include the camera model
+    <joint name="camera_joint1" type="fixed">
+        <child>camera::link</child>
+        <parent>clover</parent>
+    </joint>
+
+
+
+   <include>
+      <uri>model://camera</uri>
+      <pose>-1.128690 1.044230 3.000000 0 0.550001 0.350000</pose>
+    </include>
+
+
+    <model name='red_circle_clone_0'>
+      <pose>17.5068 34.091 -0 0 -0 0</pose>
+      <frame name='red_circle::__model__' attached_to='red_circle::red_circle_link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='red_circle::red_circle_link'>
+        <pose relative_to='red_circle::__model__'>0 0 0.001 0 -0 0</pose>
+        <visual name='red_circle_texture'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>0.4 0.4 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://red_circle/materials/scripts</uri>
+              <uri>model://red_circle/materials/textures</uri>
+              <name>red_circle</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='red_circle_clone_1'>
+      <pose>6.10911 34.2733 -0 0 -0 0</pose>
+      <frame name='red_circle::__model__' attached_to='red_circle::red_circle_link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='red_circle::red_circle_link'>
+        <pose relative_to='red_circle::__model__'>0 0 0.001 0 -0 0</pose>
+        <visual name='red_circle_texture'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>0.4 0.4 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://red_circle/materials/scripts</uri>
+              <uri>model://red_circle/materials/textures</uri>
+              <name>red_circle</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='red_circle_clone_2'>
+      <pose>0.254034 34.4378 0 0 -0 0</pose>
+      <frame name='red_circle::__model__' attached_to='red_circle::red_circle_link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='red_circle::red_circle_link'>
+        <pose relative_to='red_circle::__model__'>0 0 0.001 0 -0 0</pose>
+        <visual name='red_circle_texture'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>0.4 0.4 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://red_circle/materials/scripts</uri>
+              <uri>model://red_circle/materials/textures</uri>
+              <name>red_circle</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='red_circle_clone_3'>
+      <pose>11.8633 34.1481 0 0 -0 0</pose>
+      <frame name='red_circle::__model__' attached_to='red_circle::red_circle_link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='red_circle::red_circle_link'>
+        <pose relative_to='red_circle::__model__'>0 0 0.001 0 -0 0</pose>
+        <visual name='red_circle_texture'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>0.4 0.4 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://red_circle/materials/scripts</uri>
+              <uri>model://red_circle/materials/textures</uri>
+              <name>red_circle</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='red_circle_clone_4'>
+      <pose>-0.794647 30.2841 -0 0 -0 0</pose>
+      <frame name='red_circle::__model__' attached_to='red_circle::red_circle_link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='red_circle::red_circle_link'>
+        <pose relative_to='red_circle::__model__'>0 0 0.001 0 -0 0</pose>
+        <visual name='red_circle_texture'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>0.4 0.4 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://red_circle/materials/scripts</uri>
+              <uri>model://red_circle/materials/textures</uri>
+              <name>red_circle</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='red_circle_clone_5'>
+      <pose>14.8146 29.5563 0 0 -0 0</pose>
+      <frame name='red_circle::__model__' attached_to='red_circle::red_circle_link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='red_circle::red_circle_link'>
+        <pose relative_to='red_circle::__model__'>0 0 0.001 0 -0 0</pose>
+        <visual name='red_circle_texture'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>0.4 0.4 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://red_circle/materials/scripts</uri>
+              <uri>model://red_circle/materials/textures</uri>
+              <name>red_circle</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='red_circle_clone_6'>
+      <pose>9.04766 29.8293 0 0 -0 0</pose>
+      <frame name='red_circle::__model__' attached_to='red_circle::red_circle_link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='red_circle::red_circle_link'>
+        <pose relative_to='red_circle::__model__'>0 0 0.001 0 -0 0</pose>
+        <visual name='red_circle_texture'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>0.4 0.4 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://red_circle/materials/scripts</uri>
+              <uri>model://red_circle/materials/textures</uri>
+              <name>red_circle</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='red_circle_clone_7'>
+      <pose>3.90864 29.8195 -0 0 -0 0</pose>
+      <frame name='red_circle::__model__' attached_to='red_circle::red_circle_link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='red_circle::red_circle_link'>
+        <pose relative_to='red_circle::__model__'>0 0 0.001 0 -0 0</pose>
+        <visual name='red_circle_texture'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>0.4 0.4 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://red_circle/materials/scripts</uri>
+              <uri>model://red_circle/materials/textures</uri>
+              <name>red_circle</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='red_circle_clone_8'>
+      <pose>23.0227 33.9925 -0 0 -0 0</pose>
+      <frame name='red_circle::__model__' attached_to='red_circle::red_circle_link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='red_circle::red_circle_link'>
+        <pose relative_to='red_circle::__model__'>0 0 0.001 0 -0 0</pose>
+        <visual name='red_circle_texture'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>0.4 0.4 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://red_circle/materials/scripts</uri>
+              <uri>model://red_circle/materials/textures</uri>
+              <name>red_circle</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='red_circle_clone_9'>
+      <pose>11.715 25.7654 -0 0 -0 0</pose>
+      <frame name='red_circle::__model__' attached_to='red_circle::red_circle_link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='red_circle::red_circle_link'>
+        <pose relative_to='red_circle::__model__'>0 0 0.001 0 -0 0</pose>
+        <visual name='red_circle_texture'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>0.4 0.4 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://red_circle/materials/scripts</uri>
+              <uri>model://red_circle/materials/textures</uri>
+              <name>red_circle</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='red_circle_clone_10'>
+      <pose>0.068266 25.9548 -0 0 -0 0</pose>
+      <frame name='red_circle::__model__' attached_to='red_circle::red_circle_link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='red_circle::red_circle_link'>
+        <pose relative_to='red_circle::__model__'>0 0 0.001 0 -0 0</pose>
+        <visual name='red_circle_texture'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>0.4 0.4 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://red_circle/materials/scripts</uri>
+              <uri>model://red_circle/materials/textures</uri>
+              <name>red_circle</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='red_circle_clone_11'>
+      <pose>19.9748 29.0812 0 0 -0 0</pose>
+      <frame name='red_circle::__model__' attached_to='red_circle::red_circle_link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='red_circle::red_circle_link'>
+        <pose relative_to='red_circle::__model__'>0 0 0.001 0 -0 0</pose>
+        <visual name='red_circle_texture'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>0.4 0.4 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://red_circle/materials/scripts</uri>
+              <uri>model://red_circle/materials/textures</uri>
+              <name>red_circle</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='red_circle_clone_12'>
+      <pose>5.87012 25.0935 -0 0 -0 0</pose>
+      <frame name='red_circle::__model__' attached_to='red_circle::red_circle_link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='red_circle::red_circle_link'>
+        <pose relative_to='red_circle::__model__'>0 0 0.001 0 -0 0</pose>
+        <visual name='red_circle_texture'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>0.4 0.4 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://red_circle/materials/scripts</uri>
+              <uri>model://red_circle/materials/textures</uri>
+              <name>red_circle</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='red_circle_clone_13'>
+      <pose>25.4199 29.152 -0 0 -0 0</pose>
+      <frame name='red_circle::__model__' attached_to='red_circle::red_circle_link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='red_circle::red_circle_link'>
+        <pose relative_to='red_circle::__model__'>0 0 0.001 0 -0 0</pose>
+        <visual name='red_circle_texture'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>0.4 0.4 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://red_circle/materials/scripts</uri>
+              <uri>model://red_circle/materials/textures</uri>
+              <name>red_circle</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='red_circle_clone_14'>
+      <pose>-0.08842 21.8155 -0 0 -0 0</pose>
+      <frame name='red_circle::__model__' attached_to='red_circle::red_circle_link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='red_circle::red_circle_link'>
+        <pose relative_to='red_circle::__model__'>0 0 0.001 0 -0 0</pose>
+        <visual name='red_circle_texture'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>0.4 0.4 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://red_circle/materials/scripts</uri>
+              <uri>model://red_circle/materials/textures</uri>
+              <name>red_circle</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='red_circle_clone_15'>
+      <pose>16.911 24.0639 0 0 -0 0</pose>
+      <frame name='red_circle::__model__' attached_to='red_circle::red_circle_link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='red_circle::red_circle_link'>
+        <pose relative_to='red_circle::__model__'>0 0 0.001 0 -0 0</pose>
+        <visual name='red_circle_texture'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>0.4 0.4 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://red_circle/materials/scripts</uri>
+              <uri>model://red_circle/materials/textures</uri>
+              <name>red_circle</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='red_circle_clone_16'>
+      <pose>-0.259465 17.4056 -0 0 -0 0</pose>
+      <frame name='red_circle::__model__' attached_to='red_circle::red_circle_link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='red_circle::red_circle_link'>
+        <pose relative_to='red_circle::__model__'>0 0 0.001 0 -0 0</pose>
+        <visual name='red_circle_texture'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>0.4 0.4 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://red_circle/materials/scripts</uri>
+              <uri>model://red_circle/materials/textures</uri>
+              <name>red_circle</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='red_circle_clone_17'>
+      <pose>10.6433 21.5556 0 0 -0 0</pose>
+      <frame name='red_circle::__model__' attached_to='red_circle::red_circle_link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='red_circle::red_circle_link'>
+        <pose relative_to='red_circle::__model__'>0 0 0.001 0 -0 0</pose>
+        <visual name='red_circle_texture'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>0.4 0.4 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://red_circle/materials/scripts</uri>
+              <uri>model://red_circle/materials/textures</uri>
+              <name>red_circle</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='red_circle_clone_18'>
+      <pose>20.3645 19.4703 0 0 -0 0</pose>
+      <frame name='red_circle::__model__' attached_to='red_circle::red_circle_link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='red_circle::red_circle_link'>
+        <pose relative_to='red_circle::__model__'>0 0 0.001 0 -0 0</pose>
+        <visual name='red_circle_texture'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>0.4 0.4 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://red_circle/materials/scripts</uri>
+              <uri>model://red_circle/materials/textures</uri>
+              <name>red_circle</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='red_circle_clone_19'>
+      <pose>22.7881 24.4753 -0 0 -0 0</pose>
+      <frame name='red_circle::__model__' attached_to='red_circle::red_circle_link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='red_circle::red_circle_link'>
+        <pose relative_to='red_circle::__model__'>0 0 0.001 0 -0 0</pose>
+        <visual name='red_circle_texture'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>0.4 0.4 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://red_circle/materials/scripts</uri>
+              <uri>model://red_circle/materials/textures</uri>
+              <name>red_circle</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='red_circle_clone_20'>
+      <pose>-0.60008 12.7248 0 0 -0 0</pose>
+      <frame name='red_circle::__model__' attached_to='red_circle::red_circle_link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='red_circle::red_circle_link'>
+        <pose relative_to='red_circle::__model__'>0 0 0.001 0 -0 0</pose>
+        <visual name='red_circle_texture'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>0.4 0.4 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://red_circle/materials/scripts</uri>
+              <uri>model://red_circle/materials/textures</uri>
+              <name>red_circle</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='red_circle_clone_21'>
+      <pose>5.11351 20.3278 0 0 -0 0</pose>
+      <frame name='red_circle::__model__' attached_to='red_circle::red_circle_link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='red_circle::red_circle_link'>
+        <pose relative_to='red_circle::__model__'>0 0 0.001 0 -0 0</pose>
+        <visual name='red_circle_texture'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>0.4 0.4 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://red_circle/materials/scripts</uri>
+              <uri>model://red_circle/materials/textures</uri>
+              <name>red_circle</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='red_circle_clone_22'>
+      <pose>9.82019 16.9059 0 0 -0 0</pose>
+      <frame name='red_circle::__model__' attached_to='red_circle::red_circle_link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='red_circle::red_circle_link'>
+        <pose relative_to='red_circle::__model__'>0 0 0.001 0 -0 0</pose>
+        <visual name='red_circle_texture'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>0.4 0.4 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://red_circle/materials/scripts</uri>
+              <uri>model://red_circle/materials/textures</uri>
+              <name>red_circle</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='red_circle_clone_23'>
+      <pose>4.58028 15.5671 0 0 -0 0</pose>
+      <frame name='red_circle::__model__' attached_to='red_circle::red_circle_link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='red_circle::red_circle_link'>
+        <pose relative_to='red_circle::__model__'>0 0 0.001 0 -0 0</pose>
+        <visual name='red_circle_texture'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>0.4 0.4 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://red_circle/materials/scripts</uri>
+              <uri>model://red_circle/materials/textures</uri>
+              <name>red_circle</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='red_circle_clone_24'>
+      <pose>3.71745 10.8931 -0 0 -0 0</pose>
+      <frame name='red_circle::__model__' attached_to='red_circle::red_circle_link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='red_circle::red_circle_link'>
+        <pose relative_to='red_circle::__model__'>0 0 0.001 0 -0 0</pose>
+        <visual name='red_circle_texture'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>0.4 0.4 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://red_circle/materials/scripts</uri>
+              <uri>model://red_circle/materials/textures</uri>
+              <name>red_circle</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='red_circle_clone_25'>
+      <pose>28.9476 24.4722 -0 0 -0 0</pose>
+      <frame name='red_circle::__model__' attached_to='red_circle::red_circle_link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='red_circle::red_circle_link'>
+        <pose relative_to='red_circle::__model__'>0 0 0.001 0 -0 0</pose>
+        <visual name='red_circle_texture'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>0.4 0.4 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://red_circle/materials/scripts</uri>
+              <uri>model://red_circle/materials/textures</uri>
+              <name>red_circle</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='red_circle_clone_26'>
+      <pose>15.1813 18.7163 -0 0 -0 0</pose>
+      <frame name='red_circle::__model__' attached_to='red_circle::red_circle_link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='red_circle::red_circle_link'>
+        <pose relative_to='red_circle::__model__'>0 0 0.001 0 -0 0</pose>
+        <visual name='red_circle_texture'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>0.4 0.4 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://red_circle/materials/scripts</uri>
+              <uri>model://red_circle/materials/textures</uri>
+              <name>red_circle</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='red_circle_clone_27'>
+      <pose>6.32116 7.30029 -0 0 -0 0</pose>
+      <frame name='red_circle::__model__' attached_to='red_circle::red_circle_link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='red_circle::red_circle_link'>
+        <pose relative_to='red_circle::__model__'>0 0 0.001 0 -0 0</pose>
+        <visual name='red_circle_texture'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>0.4 0.4 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://red_circle/materials/scripts</uri>
+              <uri>model://red_circle/materials/textures</uri>
+              <name>red_circle</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='red_circle_clone_28'>
+      <pose>-0.128468 7.74403 -0 0 -0 0</pose>
+      <frame name='red_circle::__model__' attached_to='red_circle::red_circle_link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='red_circle::red_circle_link'>
+        <pose relative_to='red_circle::__model__'>0 0 0.001 0 -0 0</pose>
+        <visual name='red_circle_texture'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>0.4 0.4 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://red_circle/materials/scripts</uri>
+              <uri>model://red_circle/materials/textures</uri>
+              <name>red_circle</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='red_circle_clone_29'>
+      <pose>25.4273 19.9262 -0 0 -0 0</pose>
+      <frame name='red_circle::__model__' attached_to='red_circle::red_circle_link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='red_circle::red_circle_link'>
+        <pose relative_to='red_circle::__model__'>0 0 0.001 0 -0 0</pose>
+        <visual name='red_circle_texture'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>0.4 0.4 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://red_circle/materials/scripts</uri>
+              <uri>model://red_circle/materials/textures</uri>
+              <name>red_circle</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='red_circle_clone_30'>
+      <pose>8.73035 12.0906 0 0 -0 0</pose>
+      <frame name='red_circle::__model__' attached_to='red_circle::red_circle_link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='red_circle::red_circle_link'>
+        <pose relative_to='red_circle::__model__'>0 0 0.001 0 -0 0</pose>
+        <visual name='red_circle_texture'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>0.4 0.4 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://red_circle/materials/scripts</uri>
+              <uri>model://red_circle/materials/textures</uri>
+              <name>red_circle</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='red_circle_clone_31'>
+      <pose>-0.813295 3.15226 0 0 -0 0</pose>
+      <frame name='red_circle::__model__' attached_to='red_circle::red_circle_link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='red_circle::red_circle_link'>
+        <pose relative_to='red_circle::__model__'>0 0 0.001 0 -0 0</pose>
+        <visual name='red_circle_texture'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>0.4 0.4 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://red_circle/materials/scripts</uri>
+              <uri>model://red_circle/materials/textures</uri>
+              <name>red_circle</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='red_circle_clone_32'>
+      <pose>13.9347 13.3896 -0 0 -0 0</pose>
+      <frame name='red_circle::__model__' attached_to='red_circle::red_circle_link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='red_circle::red_circle_link'>
+        <pose relative_to='red_circle::__model__'>0 0 0.001 0 -0 0</pose>
+        <visual name='red_circle_texture'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>0.4 0.4 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://red_circle/materials/scripts</uri>
+              <uri>model://red_circle/materials/textures</uri>
+              <name>red_circle</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='red_circle_clone_33'>
+      <pose>3.65217 3.33807 0 0 -0 0</pose>
+      <frame name='red_circle::__model__' attached_to='red_circle::red_circle_link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='red_circle::red_circle_link'>
+        <pose relative_to='red_circle::__model__'>0 0 0.001 0 -0 0</pose>
+        <visual name='red_circle_texture'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>0.4 0.4 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://red_circle/materials/scripts</uri>
+              <uri>model://red_circle/materials/textures</uri>
+              <name>red_circle</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='red_circle_clone_34'>
+      <pose>11.6441 8.10017 0 0 -0 0</pose>
+      <frame name='red_circle::__model__' attached_to='red_circle::red_circle_link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='red_circle::red_circle_link'>
+        <pose relative_to='red_circle::__model__'>0 0 0.001 0 -0 0</pose>
+        <visual name='red_circle_texture'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>0.4 0.4 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://red_circle/materials/scripts</uri>
+              <uri>model://red_circle/materials/textures</uri>
+              <name>red_circle</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='red_circle_clone_35'>
+      <pose>19.1384 14.2838 0 0 -0 0</pose>
+      <frame name='red_circle::__model__' attached_to='red_circle::red_circle_link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='red_circle::red_circle_link'>
+        <pose relative_to='red_circle::__model__'>0 0 0.001 0 -0 0</pose>
+        <visual name='red_circle_texture'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>0.4 0.4 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://red_circle/materials/scripts</uri>
+              <uri>model://red_circle/materials/textures</uri>
+              <name>red_circle</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='red_circle_clone_36'>
+      <pose>16.7057 8.90293 -0 0 -0 0</pose>
+      <frame name='red_circle::__model__' attached_to='red_circle::red_circle_link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='red_circle::red_circle_link'>
+        <pose relative_to='red_circle::__model__'>0 0 0.001 0 -0 0</pose>
+        <visual name='red_circle_texture'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>0.4 0.4 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://red_circle/materials/scripts</uri>
+              <uri>model://red_circle/materials/textures</uri>
+              <name>red_circle</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='red_circle_clone_37'>
+      <pose>8.9461 3.19093 -0 0 -0 0</pose>
+      <frame name='red_circle::__model__' attached_to='red_circle::red_circle_link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='red_circle::red_circle_link'>
+        <pose relative_to='red_circle::__model__'>0 0 0.001 0 -0 0</pose>
+        <visual name='red_circle_texture'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>0.4 0.4 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://red_circle/materials/scripts</uri>
+              <uri>model://red_circle/materials/textures</uri>
+              <name>red_circle</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='red_circle_clone_38'>
+      <pose>10.9899 -1.23314 -0 0 -0 0</pose>
+      <frame name='red_circle::__model__' attached_to='red_circle::red_circle_link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='red_circle::red_circle_link'>
+        <pose relative_to='red_circle::__model__'>0 0 0.001 0 -0 0</pose>
+        <visual name='red_circle_texture'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>0.4 0.4 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://red_circle/materials/scripts</uri>
+              <uri>model://red_circle/materials/textures</uri>
+              <name>red_circle</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='red_circle_clone_39'>
+      <pose>0.002895 -1.34865 -0 0 -0 0</pose>
+      <frame name='red_circle::__model__' attached_to='red_circle::red_circle_link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='red_circle::red_circle_link'>
+        <pose relative_to='red_circle::__model__'>0 0 0.001 0 -0 0</pose>
+        <visual name='red_circle_texture'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>0.4 0.4 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://red_circle/materials/scripts</uri>
+              <uri>model://red_circle/materials/textures</uri>
+              <name>red_circle</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='red_circle_clone_40'>
+      <pose>16.1294 -1.05556 0 0 -0 0</pose>
+      <frame name='red_circle::__model__' attached_to='red_circle::red_circle_link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='red_circle::red_circle_link'>
+        <pose relative_to='red_circle::__model__'>0 0 0.001 0 -0 0</pose>
+        <visual name='red_circle_texture'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>0.4 0.4 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://red_circle/materials/scripts</uri>
+              <uri>model://red_circle/materials/textures</uri>
+              <name>red_circle</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='red_circle_clone_41'>
+      <pose>5.55037 -1.25673 -0 0 -0 0</pose>
+      <frame name='red_circle::__model__' attached_to='red_circle::red_circle_link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='red_circle::red_circle_link'>
+        <pose relative_to='red_circle::__model__'>0 0 0.001 0 -0 0</pose>
+        <visual name='red_circle_texture'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>0.4 0.4 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://red_circle/materials/scripts</uri>
+              <uri>model://red_circle/materials/textures</uri>
+              <name>red_circle</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='red_circle_clone_42'>
+      <pose>24.2607 4.28819 -0 0 -0 0</pose>
+      <frame name='red_circle::__model__' attached_to='red_circle::red_circle_link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='red_circle::red_circle_link'>
+        <pose relative_to='red_circle::__model__'>0 0 0.001 0 -0 0</pose>
+        <visual name='red_circle_texture'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>0.4 0.4 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://red_circle/materials/scripts</uri>
+              <uri>model://red_circle/materials/textures</uri>
+              <name>red_circle</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='red_circle_clone_43'>
+      <pose>19.2002 4.12766 0 0 -0 0</pose>
+      <frame name='red_circle::__model__' attached_to='red_circle::red_circle_link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='red_circle::red_circle_link'>
+        <pose relative_to='red_circle::__model__'>0 0 0.001 0 -0 0</pose>
+        <visual name='red_circle_texture'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>0.4 0.4 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://red_circle/materials/scripts</uri>
+              <uri>model://red_circle/materials/textures</uri>
+              <name>red_circle</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='red_circle_clone_44'>
+      <pose>30.4744 -1.19199 -0 0 -0 0</pose>
+      <frame name='red_circle::__model__' attached_to='red_circle::red_circle_link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='red_circle::red_circle_link'>
+        <pose relative_to='red_circle::__model__'>0 0 0.001 0 -0 0</pose>
+        <visual name='red_circle_texture'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>0.4 0.4 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://red_circle/materials/scripts</uri>
+              <uri>model://red_circle/materials/textures</uri>
+              <name>red_circle</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='red_circle_clone_45'>
+      <pose>21.013 -0.926721 -0 0 -0 0</pose>
+      <frame name='red_circle::__model__' attached_to='red_circle::red_circle_link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='red_circle::red_circle_link'>
+        <pose relative_to='red_circle::__model__'>0 0 0.001 0 -0 0</pose>
+        <visual name='red_circle_texture'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>0.4 0.4 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://red_circle/materials/scripts</uri>
+              <uri>model://red_circle/materials/textures</uri>
+              <name>red_circle</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='red_circle_clone_46'>
+      <pose>14.1255 3.66608 0 0 -0 0</pose>
+      <frame name='red_circle::__model__' attached_to='red_circle::red_circle_link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='red_circle::red_circle_link'>
+        <pose relative_to='red_circle::__model__'>0 0 0.001 0 -0 0</pose>
+        <visual name='red_circle_texture'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>0.4 0.4 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://red_circle/materials/scripts</uri>
+              <uri>model://red_circle/materials/textures</uri>
+              <name>red_circle</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='red_circle_clone_47'>
+      <pose>25.7497 -0.914445 -0 0 -0 0</pose>
+      <frame name='red_circle::__model__' attached_to='red_circle::red_circle_link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='red_circle::red_circle_link'>
+        <pose relative_to='red_circle::__model__'>0 0 0.001 0 -0 0</pose>
+        <visual name='red_circle_texture'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>0.4 0.4 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://red_circle/materials/scripts</uri>
+              <uri>model://red_circle/materials/textures</uri>
+              <name>red_circle</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='red_circle_clone_48'>
+      <pose>21.6838 9.44983 0 0 -0 0</pose>
+      <frame name='red_circle::__model__' attached_to='red_circle::red_circle_link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='red_circle::red_circle_link'>
+        <pose relative_to='red_circle::__model__'>0 0 0.001 0 -0 0</pose>
+        <visual name='red_circle_texture'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>0.4 0.4 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://red_circle/materials/scripts</uri>
+              <uri>model://red_circle/materials/textures</uri>
+              <name>red_circle</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='red_circle_clone_49'>
+      <pose>29.5089 3.69909 -0 0 -0 0</pose>
+      <frame name='red_circle::__model__' attached_to='red_circle::red_circle_link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='red_circle::red_circle_link'>
+        <pose relative_to='red_circle::__model__'>0 0 0.001 0 -0 0</pose>
+        <visual name='red_circle_texture'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>0.4 0.4 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://red_circle/materials/scripts</uri>
+              <uri>model://red_circle/materials/textures</uri>
+              <name>red_circle</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='red_circle_clone_50'>
+      <pose>24.5691 14.7048 0 0 -0 0</pose>
+      <frame name='red_circle::__model__' attached_to='red_circle::red_circle_link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='red_circle::red_circle_link'>
+        <pose relative_to='red_circle::__model__'>0 0 0.001 0 -0 0</pose>
+        <visual name='red_circle_texture'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>0.4 0.4 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://red_circle/materials/scripts</uri>
+              <uri>model://red_circle/materials/textures</uri>
+              <name>red_circle</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='red_circle_clone_51'>
+      <pose>31.1569 8.51445 -0 0 -0 0</pose>
+      <frame name='red_circle::__model__' attached_to='red_circle::red_circle_link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='red_circle::red_circle_link'>
+        <pose relative_to='red_circle::__model__'>0 0 0.001 0 -0 0</pose>
+        <visual name='red_circle_texture'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>0.4 0.4 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://red_circle/materials/scripts</uri>
+              <uri>model://red_circle/materials/textures</uri>
+              <name>red_circle</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='red_circle_clone_52'>
+      <pose>26.5317 9.30353 -0 0 -0 0</pose>
+      <frame name='red_circle::__model__' attached_to='red_circle::red_circle_link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='red_circle::red_circle_link'>
+        <pose relative_to='red_circle::__model__'>0 0 0.001 0 -0 0</pose>
+        <visual name='red_circle_texture'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>0.4 0.4 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://red_circle/materials/scripts</uri>
+              <uri>model://red_circle/materials/textures</uri>
+              <name>red_circle</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='red_circle_clone_53'>
+      <pose>34.8625 5.06069 0 0 -0 0</pose>
+      <frame name='red_circle::__model__' attached_to='red_circle::red_circle_link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='red_circle::red_circle_link'>
+        <pose relative_to='red_circle::__model__'>0 0 0.001 0 -0 0</pose>
+        <visual name='red_circle_texture'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>0.4 0.4 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://red_circle/materials/scripts</uri>
+              <uri>model://red_circle/materials/textures</uri>
+              <name>red_circle</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='red_circle_clone_54'>
+      <pose>30.1439 19.0874 0 0 -0 0</pose>
+      <frame name='red_circle::__model__' attached_to='red_circle::red_circle_link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='red_circle::red_circle_link'>
+        <pose relative_to='red_circle::__model__'>0 0 0.001 0 -0 0</pose>
+        <visual name='red_circle_texture'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>0.4 0.4 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://red_circle/materials/scripts</uri>
+              <uri>model://red_circle/materials/textures</uri>
+              <name>red_circle</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='red_circle_clone_55'>
+      <pose>34.9888 11.2788 -0 0 -0 0</pose>
+      <frame name='red_circle::__model__' attached_to='red_circle::red_circle_link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='red_circle::red_circle_link'>
+        <pose relative_to='red_circle::__model__'>0 0 0.001 0 -0 0</pose>
+        <visual name='red_circle_texture'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>0.4 0.4 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://red_circle/materials/scripts</uri>
+              <uri>model://red_circle/materials/textures</uri>
+              <name>red_circle</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='red_circle_clone_56'>
+      <pose>29.9345 13.8715 -0 0 -0 0</pose>
+      <frame name='red_circle::__model__' attached_to='red_circle::red_circle_link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='red_circle::red_circle_link'>
+        <pose relative_to='red_circle::__model__'>0 0 0.001 0 -0 0</pose>
+        <visual name='red_circle_texture'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>0.4 0.4 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://red_circle/materials/scripts</uri>
+              <uri>model://red_circle/materials/textures</uri>
+              <name>red_circle</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='red_circle_clone_57'>
+      <pose>34.5125 22.5302 0 0 -0 0</pose>
+      <frame name='red_circle::__model__' attached_to='red_circle::red_circle_link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='red_circle::red_circle_link'>
+        <pose relative_to='red_circle::__model__'>0 0 0.001 0 -0 0</pose>
+        <visual name='red_circle_texture'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>0.4 0.4 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://red_circle/materials/scripts</uri>
+              <uri>model://red_circle/materials/textures</uri>
+              <name>red_circle</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='red_circle_clone_58'>
+      <pose>34.8788 27.8628 -0 0 -0 0</pose>
+      <frame name='red_circle::__model__' attached_to='red_circle::red_circle_link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='red_circle::red_circle_link'>
+        <pose relative_to='red_circle::__model__'>0 0 0.001 0 -0 0</pose>
+        <visual name='red_circle_texture'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>0.4 0.4 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://red_circle/materials/scripts</uri>
+              <uri>model://red_circle/materials/textures</uri>
+              <name>red_circle</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='red_circle_clone_59'>
+      <pose>30.5421 29.5061 0 0 -0 0</pose>
+      <frame name='red_circle::__model__' attached_to='red_circle::red_circle_link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='red_circle::red_circle_link'>
+        <pose relative_to='red_circle::__model__'>0 0 0.001 0 -0 0</pose>
+        <visual name='red_circle_texture'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>0.4 0.4 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://red_circle/materials/scripts</uri>
+              <uri>model://red_circle/materials/textures</uri>
+              <name>red_circle</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='red_circle_clone_60'>
+      <pose>28.6562 34.1484 -0 0 -0 0</pose>
+      <frame name='red_circle::__model__' attached_to='red_circle::red_circle_link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='red_circle::red_circle_link'>
+        <pose relative_to='red_circle::__model__'>0 0 0.001 0 -0 0</pose>
+        <visual name='red_circle_texture'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>0.4 0.4 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://red_circle/materials/scripts</uri>
+              <uri>model://red_circle/materials/textures</uri>
+              <name>red_circle</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='red_circle_clone_61'>
+      <pose>34.9246 -0.568396 0 0 -0 0</pose>
+      <frame name='red_circle::__model__' attached_to='red_circle::red_circle_link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='red_circle::red_circle_link'>
+        <pose relative_to='red_circle::__model__'>0 0 0.001 0 -0 0</pose>
+        <visual name='red_circle_texture'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>0.4 0.4 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://red_circle/materials/scripts</uri>
+              <uri>model://red_circle/materials/textures</uri>
+              <name>red_circle</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='red_circle_clone_62'>
+      <pose>34.4795 33.7487 -0 0 -0 0</pose>
+      <frame name='red_circle::__model__' attached_to='red_circle::red_circle_link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='red_circle::red_circle_link'>
+        <pose relative_to='red_circle::__model__'>0 0 0.001 0 -0 0</pose>
+        <visual name='red_circle_texture'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>0.4 0.4 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://red_circle/materials/scripts</uri>
+              <uri>model://red_circle/materials/textures</uri>
+              <name>red_circle</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='red_circle_clone_63'>
+      <pose>34.8133 16.8799 -0 0 -0 0</pose>
+      <frame name='red_circle::__model__' attached_to='red_circle::red_circle_link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='red_circle::red_circle_link'>
+        <pose relative_to='red_circle::__model__'>0 0 0.001 0 -0 0</pose>
+        <visual name='red_circle_texture'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>0.4 0.4 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://red_circle/materials/scripts</uri>
+              <uri>model://red_circle/materials/textures</uri>
+              <name>red_circle</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+
+
+
+    

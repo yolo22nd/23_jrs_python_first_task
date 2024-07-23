@@ -1,0 +1,12 @@
+rqt_graph
+rosnode list
+
+
+make catkin_ws folder
+make src folder in catkin_ws
+
+catkin_make
+source 〜/catkin_ws/devel/setup.bash
+gedit 〜/.bashrc
+
+sudo snap install code --classic  #installs

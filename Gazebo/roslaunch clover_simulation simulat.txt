@@ -1,0 +1,16 @@
+roslaunch clover_simulation simulator.launch
+rosrun clover autotest_flight.py
+
+
+launch file has details of world,
+world has details of models and buildings.
+
+
+Inside a simulation,standard and custom models can be added.
+examples of models can be the terrain, the drone, any random objects like walls,doors,ambulances.
+These models can also be added using the include tag specifying the path and name acc to syntax.
+
+
+Drone movements:
+	just run the default functions provided,they're pretty simple.
+	in case there is an error in the code,the drone lands by default.
